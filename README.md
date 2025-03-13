@@ -105,7 +105,7 @@ Key Considerations for Dataproc Cluster Configuration
 
 - Avoid excessive caching due to disk-based storage constraints.
 
-4. Module 5: Data Serving
+### Module 5: Data Serving
 
 - Store and retrieve processed data efficiently in Dataproc.
 
