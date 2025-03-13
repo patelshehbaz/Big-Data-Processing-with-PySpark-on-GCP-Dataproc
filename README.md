@@ -30,12 +30,12 @@ In a production setting, instead of using Google Colab, we:
 
 Data Ingestion: The dataset is fetched from Kaggle and extracted into the required storage format.
 
-'''
+```
 #!/bin/bash
 curl -L -o ~/olist/brazilian-ecommerce.zip \
 https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce
 unzip brazilian-ecommerce.zip -d ~/olist/data/
-'''
+```
 
 ### Module 1: Data Ingestion and Exploration
 
